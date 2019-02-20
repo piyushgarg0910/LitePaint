@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menuTop">
+        <!--<item
+            android:id="@+id/gallery"
+            android:title="@string/gallery">
+        </item>
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings">
+        </item>-->
+        <item
+            android:id="@+id/help"
+            android:title="@string/help">
+        </item>
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menuBottom44">
+        <!--<item
+            android:id="@+id/donate"
+            android:title="@string/donate">
+        </item>
+        <item
+            android:id="@+id/feedback"
+            android:title="@string/feedback">
+        </item>-->
+    </group>
+
+</menu>

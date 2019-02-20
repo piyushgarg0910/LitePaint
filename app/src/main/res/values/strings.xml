@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LitePaint</string>
+    <string name="start_app">Start</string>
+    <string name="color_picker">Color Picker</string>
+    <string name="clear">Clear</string>
+    <string name="settings">Settings</string>
+    <string name="donate">Donate</string>
+    <string name="help">Help</string>
+    <string name="gallery">Gallery</string>
+    <string name="feedback">Feedback</string>
+    <string name="dialog_message">This action cannot be undone</string>
+    <string name="dialog_title">Clear canvas?</string>
+    <string name="positive">Yes</string>
+    <string name="negative">No</string>
+    <string name="close_application_message">Do you wish to close this application?</string>
+    <string name="close_application_title">Close Lite Paint!</string>
+    <string name="back">Back</string>
+</resources>

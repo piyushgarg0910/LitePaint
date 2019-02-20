@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".view.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lite_text"
+        android:id="@+id/LiteTextImage"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:contentDescription="@string/app_name"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paint_palette"
+        android:id="@+id/PaintImage"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/LiteTextImage"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/app_name"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paint_text"
+        android:id="@+id/PaintTextImage"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/PaintImage"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/app_name"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/StartButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/start_button"
+        android:text="@string/start_app"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"/>
+
+</RelativeLayout>
